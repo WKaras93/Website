@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head lang="pl">
+		<meta charset="utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge.chrome=1"/>
+		<meta name="description" content="Tworzenie strony internetowej. Programista C++, Java, Python, HTML, CSS"/>
+		<meta name="keywords" content="strony, tworzenie, www, programista, c++, java. python, html, css"/>
+		<title>Wojciech Karaś - Portfolio</title>
+		<link rel="stylesheet" href="../style.css" type="text/css"/>
+		<link rel="stylesheet" href="../fontello/css/fontello.css" type="text/css" />
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lato&amp;subset=latin-ext" rel="stylesheet">
+	</head>
+	<body>
+		<div id = "container">
+			<div id="logo">
+				<div id="opis">Projekt 2</div>
+				<div id="socials">
+					<div class="slink"><a href="http://facebook.com" target="_blank"><i class="icon-facebook"></i></a></div>
+					<div class="slink"><a href="http://linkedin.com/" target="_blank"><i class="icon-linkedin"></i></a></div>
+					<div class="slink"><a href="https://plus.google.com/discover" target="_blank"><i class="icon-gplus-1"></i></a></div>
+					<div style="clear: both;"></div>
+				</div>
+			</div>
+			<div id = "nav">
+				<div class="menu"><a href="../index.html">Strona główna</a></div>
+				<div class="menu"><a href="../projekt3/projekt3.html">Projekt nr 3</a></div>
+				<div class="menu"><a href="../autor/autor.html">O autorze</a></div>
+				<div class="menu"><a href="../serwis/serwis.html">O stronie</a></div>
+			</div>
+			<div id = "content">
+				Tematem projektu numer 2 jest platforma pełniąca rolę wirtualnego dziekanatu, umożliwiająca przeglądnięcie podstawowych 
+				danych o studentach (imię, nazwisko, data urodzenia, numer PESEL, imiona rodziców, oceny z poszczególnych przedmiotów jak 
+				również średnią). Serwis utworzono w oparciu o HTML, CSS oraz Javascript obsługiwany po stronie użytkownika.
+				</br>
+				<select id="select_table">
+					<option selected>Wybierz:</option>
+					<option >Tabela podstawowa</option>
+					<option >Tabela z danymi</option>
+					<option >Tabela z ocenami</option>
+					<option >Dodaj studenta</option>
+				</select>
+				<table id="tabela" class="tablesorter">
+					<thead>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+				<form id="form">
+					<input id="name" type="text" placeholder="Imię*" />
+					<input id="surname" type="text" placeholder="Nazwisko*" />
+					<input id="id-num" type="text" placeholder="PESEL*" />
+					<input id="birth-date" type="text" placeholder="Data Urodzenia (DD/MM/RRRR)*" />
+					<input id="mother-name" type="text" placeholder="Imię matki" />
+					<input id="father-name" type="text" placeholder="Imię ojca" />
+					Oceny
+					<select id="python">
+						<option selected>Wybierz:</option>
+						<option >2</option>
+						<option >3</option>
+						<option >3.5</option>
+						<option >4</option>
+						<option >4.5</option>
+						<option >5</option>
+					</select>
+					<select id="www">
+						<option selected>Wybierz:</option>
+						<option >2</option>
+						<option >3</option>
+						<option >3.5</option>
+						<option >4</option>
+						<option >4.5</option>
+						<option >5</option>
+					</select>
+					<select id="bazy">
+						<option selected>Wybierz:</option>
+						<option >2</option>
+						<option >3</option>
+						<option >3.5</option>
+						<option >4</option>
+						<option >4.5</option>
+						<option >5</option>
+					</select>
+					<select id="interfejsy">
+						<option selected>Wybierz:</option>
+						<option >2</option>
+						<option >3</option>
+						<option >3.5</option>
+						<option >4</option>
+						<option >4.5</option>
+						<option >5</option>
+					</select>
+					<select id="filzofia">
+						<option selected>Wybierz:</option>
+						<option >2</option>
+						<option >3</option>
+						<option >3.5</option>
+						<option >4</option>
+						<option >4.5</option>
+						<option >5</option>
+					</select>
+					<input id="button-form" type="button" value="Dodaj" />
+					</br> * - oznacza pozycję obowiązkową
+				</form>
+			</div>
+			<div id = "footer">
+				Wojciech Karaś. &copy; 2018
+			</div>
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+		<script type="text/javascript" src="../js/jquery.tablesorter.min.js"></script>
+		<script type="text/javascript" src="../js/js4.js"></script>
+	</body>
+
+</html>
