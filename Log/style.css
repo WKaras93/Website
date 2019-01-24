@@ -1,0 +1,77 @@
+body{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("hexellence/hexellence.png");
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+#container{
+    background-color: #ffffff;
+    width: 300px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    -webkit-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+    -moz-box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+    box-shadow: 3px 3px 20px 4px rgba(204,204,204,0.9);
+}
+
+input[type=text], input[type=password]{
+    width: 300px;
+    background-color: #efefef;
+    color: #666666;
+    border: 2px solid #dddddd;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+input[type=submit]{
+    width: 300px;
+    background-color: #36b03c;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+input[type=submit]:hover{
+    background-color: #37b93d;
+}
+
+#createAccount_form{
+    display: none;
+}
+#log_access, #sign_access{
+    width: 300px;
+    background-color: #36b03c;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 15px 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+button:hover{
+    color: #36b03c;
+}
+
+#user_Account{
+    display: none;
+}
